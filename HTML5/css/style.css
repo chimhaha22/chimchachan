@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.note {
+    font-size : 120%;
+    color: rgb(0, 0, 255);
+  }
+  
+  ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #0065a0;
+   overflow: visible;  
+   position: sticky;
+   top:0px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li a, .dropbtn {
+  display: inline-block;
+  padding: 14px 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #120075;
+  }
+
+  .dropdown-content {
+    display: none; /* 테스트를 할때는 메뉴가 보이지 않기 때문에
+                      display: block로 하고 테스트하길 바람.  */
+    position: absolute; 
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+             
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  body {
+    background-color:rgb(0, 0, 0);text-align: center;
+  }
+
+  h1 {
+    font-size:50px; background-color: rgb(0, 195, 255);text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  pre {
+    color:slateblue; text-align: center;
+  }
