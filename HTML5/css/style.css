@@ -57,7 +57,7 @@
   }
 
   h1 {
-    font-size:50px; color: rgb(0, 195, 255);text-align: center;
+    font-size:50px; text-align: center;
   }
 
   h2 {
@@ -66,6 +66,7 @@
 
   h3 {
     text-align: center;
+    color: rgb(76, 125, 199);
   }
 
   p {
